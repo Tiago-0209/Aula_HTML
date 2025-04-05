@@ -1,3 +1,23 @@
 body {
-    background: rgb(231, 141, 210);
+    background: rgb(2, 121, 37);
+}
+nav {
+    background: rgb(6, 141, 1);
+    padding: 0px 10px;
+}
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif
+    padding: 10px 10px;
+}
+a:hover {
+    color: rgb(231, 231, 231);
+    text-decoration:underline;
 }
