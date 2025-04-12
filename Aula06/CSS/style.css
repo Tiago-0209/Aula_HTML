@@ -2,7 +2,7 @@ body {
     background: rgb(2, 121, 37);
 }
 nav {
-    background: rgb(6, 141, 1);
+    background: rgba(4, 72, 1, 0.699);
     padding: 0px 10px;
 }
 li {
@@ -19,5 +19,17 @@ a {
 }
 a:hover {
     color: rgb(231, 231, 231);
-    text-decoration:underline;
+    /*text-decoration:underline;*/
+}
+
+section{
+    
+}
+
+/* a classe permite criar persomalização para as tags individualmente*/
+/* começa com "." e o "nome" */
+.secdestaque {
+    width: 100%; /* width é a largura*/
+    height: 400px; /* height é a altura*/
+    background-color: rgb(4, 72, 1, 0.699); /* background-color é a cor de fundo*/
 }
