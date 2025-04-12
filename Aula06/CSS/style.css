@@ -20,9 +20,6 @@ a {
 a:hover {
     color: rgb(231, 231, 231);
     /*text-decoration:underline;*/
-}
-
-section{
     
 }
 
@@ -31,5 +28,21 @@ section{
 .secdestaque {
     width: 100%; /* width é a largura*/
     height: 400px; /* height é a altura*/
-    background-color: rgb(4, 72, 1, 0.699); /* background-color é a cor de fundo*/
+    background: url(../images/paisagem-1143403334.jpg); /* background é a imagem de fundo*/
+    background-repeat: no-repeat;
+    background-position: center; /* background-position é a posição da imagem de fundo*/
+    background-attachment: fixed; /* background-attachment é a fixação da imagem de fundo*/
+    background-size: 100% 100%; /* background-size é o tamanho da imagem de fundo*/
+}  
+
+.centro{
+    width: 50%;
+    background: rgba(4, 72, 1, 0.699);
+    margin: 0 auto;
+    display: flex;
+};
+
+/* para colocar alguns blocos em colunas - float :left */
+.coluna1{
+    float: left;
 }
