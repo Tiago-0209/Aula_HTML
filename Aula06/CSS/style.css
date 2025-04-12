@@ -33,6 +33,8 @@ a:hover {
     background-position: center; /* background-position é a posição da imagem de fundo*/
     background-attachment: fixed; /* background-attachment é a fixação da imagem de fundo*/
     background-size: 100% 100%; /* background-size é o tamanho da imagem de fundo*/
+    border-radius: 40px; /* border-radius é o arredondamento das bordas*/
+
 }  
 
 .centro{
@@ -40,9 +42,20 @@ a:hover {
     background: rgba(4, 72, 1, 0.699);
     margin: 0 auto;
     display: flex;
-};
+}
 
-/* para colocar alguns blocos em colunas - float :left */
-.coluna1{
+.coluna{
+    
     float: left;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.centro .coluna p{
+    background: rgba(5, 153, 40, 0.727);
+}
+
+h1,h2,h3,h4,h5{
+    color: blue;
 }
