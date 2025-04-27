@@ -11,6 +11,7 @@ li {
 }
 ul {
     list-style-type: none;
+    text-align: center; /* alinhamento do texto*/
 }
 a {
     color: rgb(255, 255, 255);
@@ -47,8 +48,8 @@ a:hover {
   color: white; /* código para contornar o texto*/
     }
 
-.secconteudo {
-    
+
+}
 
 .centro{
     width: 50%;
@@ -72,4 +73,51 @@ a:hover {
     border-radius: 5px;
     text-align: center;
     color: #fff;
+}
+
+h1,h2,h3,h4,h5{
+    color: rgb(0, 64, 255); 
+    text-align: center; /* alinhamento do texto*/
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.secconteudo {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center; /* alinhamento do texto*/
+}
+.secconteudo a {
+    color: rgb(0, 0, 0);
+}
+.secconteudo a:hover {
+    color: rgb(45, 3, 255);
+}
+
+.formulario{
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center; /* alinhamento do texto*/
+}
+.formulario p{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.formulario label{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
