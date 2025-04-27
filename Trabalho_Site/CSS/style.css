@@ -1,8 +1,8 @@
 body {
-    background: rgb(2, 121, 37);
+    background: rgb(252, 252, 252);
 }
 nav {
-    background: rgba(4, 72, 1, 0.699);
+    background: rgb(8, 116, 216);
     border-radius: 40px;
     padding: 1px 20px;
 }
@@ -29,20 +29,33 @@ a:hover {
 .secdestaque {
     width: 100%; /* width é a largura*/
     height: 100px; /* height é a altura*/
-    background: url(../images/internet.jpg); /* background é a imagem de fundo*/
+    background: url(../images/tech.jpg); /* background é a imagem de fundo*/
     background-repeat: no-repeat;
     background-position: center; /* background-position é a posição da imagem de fundo*/
     background-attachment: fixed; /* background-attachment é a fixação da imagem de fundo*/
     background-size: 100% 100%; /* background-size é o tamanho da imagem de fundo*/
-    border-radius: 40px; /* border-radius é o arredondamento das bordas*/
+    border-radius: 20px; /* border-radius é o arredondamento das bordas*/
+    border-radius: 5px;
+   
+    h1 {
+        color: #fff; /* cor do texto*/
+        font-family: Arial, Helvetica, sans-serif; /* fonte do texto*/
+        font-size: 28px; /* tamanho da fonte*/
+        text-align: center; /* alinhamento do texto*/
+        padding: 35px; /* espaçamento interno do texto*/
+        text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: white; /* código para contornar o texto*/
+    }
 
-}  
+.secconteudo {
+    
 
 .centro{
     width: 50%;
-    background: rgba(4, 72, 1, 0.699);
+    background: url(../images/azul.jpg);
     margin: 0 auto;
     display: flex;
+    border-radius: 20px;
 }
 
 .coluna{
@@ -51,12 +64,12 @@ a:hover {
     width: 100%;
     margin: 10px;
     padding: 10px;
+    
 }
 
 .centro .coluna p{
-    background: #009026b9;
-}
-
-h1,h2,h3,h4,h5{
-    color: rgb(1, 66, 8);
+    background: #0940f7;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
 }
