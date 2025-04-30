@@ -33,7 +33,7 @@ a:hover {
     background: url(../images/tech.jpg); /* background é a imagem de fundo*/
     background-repeat: no-repeat;
     background-position: center; /* background-position é a posição da imagem de fundo*/
-    background-attachment: fixed; /* background-attachment é a fixação da imagem de fundo*/
+   /* background-attachment: fixed; /* background-attachment é a fixação da imagem de fundo*/
     background-size: 100% 100%; /* background-size é o tamanho da imagem de fundo*/
     border-radius: 20px; /* border-radius é o arredondamento das bordas*/
     border-radius: 5px;
