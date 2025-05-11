@@ -1,23 +1,34 @@
 body {
     background: rgb(252, 252, 252);
+    margin: 50px;
 }
-nav {
+.menu nav {
     background: rgb(8, 116, 216);
-    border-radius: 40px;
+    border-radius: 10px;
     padding: 1px 20px;
 }
-li {
-    display: inline;
-}
-ul {
+
+
+.menu ul {
     list-style-type: none;
     text-align: center; /* alinhamento do texto*/
+
+   li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 25px;
+   }
 }
+
+
+
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
     padding: 10px 10px;
+
+
 }
 a:hover {
     color: rgb(231, 231, 231);
@@ -25,8 +36,6 @@ a:hover {
     
 }
 
-/* a classe permite criar persomalização para as tags individualmente*/
-/* começa com "." e o "nome" */
 .secdestaque {
     width: 100%; /* width é a largura*/
     height: 100px; /* height é a altura*/
@@ -37,8 +46,9 @@ a:hover {
     background-size: 100% 100%; /* background-size é o tamanho da imagem de fundo*/
     border-radius: 20px; /* border-radius é o arredondamento das bordas*/
     border-radius: 5px;
+}
    
-    h1 {
+.secdestaque h1 {
         color: #fff; /* cor do texto*/
         font-family: Arial, Helvetica, sans-serif; /* fonte do texto*/
         font-size: 28px; /* tamanho da fonte*/
@@ -48,8 +58,20 @@ a:hover {
   color: white; /* código para contornar o texto*/
     }
 
-
+footer {
+    background: rgb(8, 116, 216);
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px;
 }
+
+footer p {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center; /* alinhamento do texto*/
+}
+
 
 .centro{
     width: 50%;
@@ -92,13 +114,27 @@ p{
     padding: 10px;
     background-color: #f0f0f0;
     border-radius: 10px;
-    text-align: center; /* alinhamento do texto*/
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .secconteudo a {
     color: rgb(0, 0, 0);
 }
 .secconteudo a:hover {
     color: rgb(45, 3, 255);
+}
+
+.secconteudo p {
+    text-align:justify; /* alinhamento do texto*/
+    padding: auto;
+    margin: auto;
+    font-size: 18px;
+}
+
+.secconteudo ul{
+
+    text-align: justify; /* alinhamento do texto*/
+    padding: auto;
 }
 
 .formulario{
@@ -121,3 +157,10 @@ p{
     font-size: 18px;
     text-align: center;
 }
+
+.titulocont h1{
+    color: rgb(0, 64, 255); 
+    text-align: justify;
+    margin: 20px;
+}
+
